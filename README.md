@@ -70,7 +70,10 @@ The following are the basic requirements to **start** the workshop.
    > source ~/workshopvars.env
    > ```
    
-   
+   ```console
+   teste de console
+   ```
+
    ```bash
    export RESOURCE_GROUP=tigera-workshop
    export CLUSTERNAME=aks-workshop
