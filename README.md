@@ -69,10 +69,6 @@ The following are the basic requirements to **start** the workshop.
    > ```console
    > source ~/workshopvars.env
    > ```
-   
-   ```console
-   teste de console
-   ```
 
    ```bash
    export RESOURCE_GROUP=tigera-workshop
