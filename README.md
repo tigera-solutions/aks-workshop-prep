@@ -1,4 +1,4 @@
-# Calico Cloud / Azure AKS - Workshop Environment Preparation
+# Calico Cloud on AKS - Workshop Environment Preparation
 
 This repo will guide you through the preparation process of building an AKS cluster using the Azure Cloud Shell that will be used in Tigera's Calico Cloud workshop. The goal is to reduce the time used for setting up infrastructure during the workshop, optimizing the Calico Cloud learning and ensuring everyone is on the same page.
 
@@ -9,7 +9,7 @@ The following are the basic requirements to **start** the workshop.
 * Azure Account [Azure Portal](https://portal.azure.com)
 * Git [Git SCM](https://git-scm.com/downloads)
 * Azure Cloud Shell [https://shell.azure.com](https://shell.azure.com)
-* Microsoft AKS Cluster 
+* Azure AKS Cluster 
 
 # Instructions
 
@@ -22,7 +22,7 @@ The following are the basic requirements to **start** the workshop.
 
    > Note: In the cloud shell, you are automatically logged into your Azure subscription.
 
-4. Ensure you are using the correct Azure subscription you want to deploy AKS to.
+4. [Optional] If you have more than one Azure subscription, ensure you are using the one you want to deploy AKS to.
 
    View subscriptions
    ```bash
@@ -66,8 +66,10 @@ The following are the basic requirements to **start** the workshop.
 
    > **NOTE**: In the following sections we'll be generating and setting some environment variables. If you're terminal session restarts you may need to reset these variables. You can use that via the following command:
    >
+   > ```console
    > source ~/workshopvars.env
-
+   > ```
+   
    ```bash
    export RESOURCE_GROUP=tigera-workshop
    export CLUSTERNAME=aks-workshop
