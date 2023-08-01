@@ -178,7 +178,7 @@ The following are the basic requirements to **start** the workshop.
    az aks stop --resource-group $RESOURCE_GROUP --name $CLUSTERNAME
    ```
 
-10. To start your cluster when the workshop time has came use:
+10. To start your cluster when the workshop time has come use:
 
     ```bash
     az aks start --resource-group $RESOURCE_GROUP --name $CLUSTERNAME
