@@ -112,9 +112,9 @@ The following are the basic requirements to **start** the workshop.
    You may get an output like the following
 
    <pre>
-   Name                     Location       ResourceGroup              KubernetesVersion    CurrentKubernetesVersion    ProvisioningState    Fqdn
-   -----------------------  -------------  -------------------------  -------------------  --------------------------  -------------------  -----------------------------------------------------------------------
-   aks-workshop  canadacentral  rg-zero-trust-workshop     1.23                 1.23.12                     Succeeded            aks-zero-t-rg-zero-trust-wo-03cfb8-b3feb0f8.hcp.canadacentral.azmk8s.io
+   Name                                   Location       ResourceGroup                         KubernetesVersion    CurrentKubernetesVersion    ProvisioningState    Fqdn
+   -------------------------------------  -------------  ------------------------------------  -------------------  --------------------------  -------------------  -----------------------------------------------------------------------
+   aks-workshop                           canadacentral  tigera-workshop                       1.26                 1.26.3                      Succeeded            aks-worksh-tigera-workshop-03cfb8-1juijlrg.hcp.canadacentral.azmk8s.io
    </pre>
 
 5. Get the credentials to connect to the cluster.
@@ -133,8 +133,8 @@ The following are the basic requirements to **start** the workshop.
 
    <pre>
    NAME                                STATUS   ROLES   AGE   VERSION
-   aks-nodepool1-10832039-vmss000000   Ready    agent   18h   v1.23.12
-   aks-nodepool1-10832039-vmss000002   Ready    agent   74m   v1.23.12
+   aks-nodepool1-25616976-vmss000002   Ready    agent   55m   v1.26.3
+   aks-nodepool1-25616976-vmss000003   Ready    agent   55m   v1.26.3
    </pre>
 
    To see more details about your cluster:
