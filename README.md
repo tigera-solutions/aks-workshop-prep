@@ -1,6 +1,6 @@
 # Calico Cloud on AKS - Workshop Environment Preparation
 
-This repo will guide you through the preparation process of building an AKS cluster using the Azure Cloud Shell that will be used in Tigera's Calico Cloud workshop. The goal is to reduce the time used for setting up infrastructure during the workshop, optimizing the Calico Cloud learning and ensuring everyone is on the same page.
+This repository will guide you through the preparation process of building an AKS cluster using the Azure Cloud Shell that will be used in Tigera's Calico Cloud workshop. The goal is to reduce the time used for setting up infrastructure during the workshop, optimizing the Calico Cloud learning and ensuring everyone is on the same page.
 
 ## Getting Started with Azure Cloud Shell
 
@@ -64,7 +64,7 @@ The following are the basic requirements to **start** the workshop.
 
 1. Define the environment variables to be used by the resources definition.
 
-   > **NOTE**: In the following sections we'll be generating and setting some environment variables. If you're terminal session restarts you may need to reset these variables. You can use that via the following command:
+   > **NOTE**: In the following section, we'll create some environment variables. If your terminal session restarts, you may need to reset these variables. You can do that using the following command:
    >
    > ```console
    > source ~/workshopvars.env
@@ -106,10 +106,10 @@ The following are the basic requirements to **start** the workshop.
 4. Verify your cluster status. The `ProvisioningState` should be `Succeeded`
 
    ```bash
-   az aks list -o table | grep $CLUSTERNAME
+   az aks list -o table
    ```
  
-   You may get an output like the following
+   You may get an output like the following:
 
    <pre>
    Name                                   Location       ResourceGroup                         KubernetesVersion    CurrentKubernetesVersion    ProvisioningState    Fqdn
@@ -129,7 +129,7 @@ The following are the basic requirements to **start** the workshop.
    kubectl get nodes
    ```
 
-   The output will ne something similar to the this:
+   The output will be something similar to the this:
 
    <pre>
    NAME                                STATUS   ROLES   AGE   VERSION
@@ -143,7 +143,7 @@ The following are the basic requirements to **start** the workshop.
     kubectl cluster-info
    ```
 
-   The output will ne something similar to the this:
+   The output will be something similar to the this:
    <pre>
    Kubernetes control plane is running at https://aks-zero-t-rg-zero-trust-wo-03cfb8-b3feb0f8.hcp.canadacentral.azmk8s.io:443
    CoreDNS is running at https://aks-zero-t-rg-zero-trust-wo-03cfb8-b3feb0f8.hcp.canadacentral.azmk8s.io:443/api/v1/namespaces/kube-system/services/kube-dns:dns/proxy
