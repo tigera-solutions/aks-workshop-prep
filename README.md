@@ -122,7 +122,7 @@ The following are the basic requirements to **start** the workshop.
    <pre>
    Name                                   Location       ResourceGroup                         KubernetesVersion    CurrentKubernetesVersion    ProvisioningState    Fqdn
    -------------------------------------  -------------  ------------------------------------  -------------------  --------------------------  -------------------  -----------------------------------------------------------------------
-   aks-workshop                           canadacentral  tigera-workshop                       1.27                 1.27.3                         Succeeded            aks-worksh-tigera-workshop-03cfb8-1juijlrg.hcp.canadacentral.azmk8s.io
+   aks-workshop                           canadacentral  tigera-workshop                       1.27                 1.27.3                      Succeeded            aks-worksh-tigera-workshop-03cfb8-1juijlrg.hcp.canadacentral.azmk8s.io
    </pre>
 
 5. Get the credentials to connect to the cluster.
