@@ -94,7 +94,7 @@ The following are the basic requirements to **start** the workshop.
    az aks create \
      --resource-group $RESOURCE_GROUP \
      --name $CLUSTERNAME \
-     --kubernetes-version 1.26 \
+     --kubernetes-version 1.27 \
      --location $LOCATION \
      --node-count 2 \
      --node-vm-size Standard_B2ms \
