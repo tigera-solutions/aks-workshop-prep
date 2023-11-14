@@ -60,6 +60,14 @@ The following are the basic requirements to **start** the workshop.
    echo "complete -o default -F __start_kubectl k" >> ~/.bashrc
    ```
 
+6. [Optional] Instal k9s, if you like it.
+
+   ```bash
+   curl --silent --location "https://github.com/derailed/k9s/releases/download/v0.28.2/k9s_Linux_amd64.tar.gz" | tar xz -C /tmp
+   sudo mv /tmp/k9s ~/.local/bin 
+   k9s version
+   ```
+
 ## Deploy an Azure AKS Cluster
 
 1. Define the environment variables to be used by the resources definition.
