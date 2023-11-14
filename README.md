@@ -114,7 +114,7 @@ The following are the basic requirements to **start** the workshop.
 4. Verify your cluster status. The `ProvisioningState` should be `Succeeded`
 
    ```bash
-   az aks list -o table
+   az aks list -o table | grep $CLUSTERNAME
    ```
  
    You may get an output like the following:
