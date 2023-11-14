@@ -141,8 +141,8 @@ The following are the basic requirements to **start** the workshop.
 
    <pre>
    NAME                                STATUS   ROLES   AGE   VERSION
-   aks-nodepool1-25616976-vmss000002   Ready    agent   55m   v1.26.3
-   aks-nodepool1-25616976-vmss000003   Ready    agent   55m   v1.26.3
+   aks-nodepool1-25616976-vmss000002   Ready    agent   55m   v1.27.3
+   aks-nodepool1-25616976-vmss000003   Ready    agent   55m   v1.27.3
    </pre>
 
    To see more details about your cluster:
