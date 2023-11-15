@@ -47,8 +47,9 @@ The following are the basic requirements to **start** the workshop.
 5. Configure the kubectl autocomplete.
 
    ```bash
-   source <(kubectl completion bash) # set up autocomplete in bash into the current shell, bash-completion package should be installed first.
+   source <(kubectl completion bash) &&  source /usr/share/bash-completion/bash_completion # set up autocomplete in bash into the current shell, bash-completion package should be installed first.
    echo "source <(kubectl completion bash)" >> ~/.bashrc # add autocomplete permanently to your bash shell.
+   echo "source /usr/share/bash-completion/bash_completion" >> ~/.bashrc # add autocomplete permanently to your bash shell.
    ```
 
    You can also use a shorthand alias for kubectl that also works with completion:
