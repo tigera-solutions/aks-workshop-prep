@@ -65,6 +65,7 @@ The following are the basic requirements to **start** the workshop.
 
    ```bash
    curl --silent --location "https://github.com/derailed/k9s/releases/download/v0.28.2/k9s_Linux_amd64.tar.gz" | tar xz -C /tmp
+   mkdir -p ~/.local/bin
    mv /tmp/k9s ~/.local/bin 
    k9s version
    ```
