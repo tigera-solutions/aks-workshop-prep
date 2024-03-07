@@ -175,8 +175,8 @@ The following are the basic requirements to **start** the workshop.
 8. Verify the transparent mode by running the following command in one node
 
    ```bash
-   VMSSGROUP=$(az vmss list --output table | grep -i $RESOURCE_GROUP | awk -F ' ' '{print $2}')
-   VMSSNAME=$(az vmss list --output table | grep -i $RESOURCE_GROUP | awk -F ' ' '{print $1}')
+   VMSSGROUP=$(az vmss list --output table | grep -i $RESOURCE_GROUP | grep -i $CLUSTERNAME | awk -F ' ' '{print $2}')
+   VMSSNAME=$(az vmss list --output table | grep -i $RESOURCE_GROUP | grep -i $CLUSTERNAME | awk -F ' ' '{print $1}')
    az vmss run-command invoke -g $VMSSGROUP -n $VMSSNAME --scripts "cat /etc/cni/net.d/*" --command-id RunShellScript --instance-id 0 --query 'value[0].message' --output table
    ```
    
