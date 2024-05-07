@@ -85,7 +85,7 @@ The following are the basic requirements to **start** the workshop.
    export CLUSTERNAME=aks-workshop
    export LOCATION=canadacentral
    # Persist for later sessions in case of disconnection.
-   echo export RESOURCE_GROUP=$RESOURCE_GROUP >> ~/workshopvars.env
+   echo export RESOURCE_GROUP=$RESOURCE_GROUP > ~/workshopvars.env
    echo export CLUSTERNAME=$CLUSTERNAME >> ~/workshopvars.env
    echo export LOCATION=$LOCATION >> ~/workshopvars.env
    ```
