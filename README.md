@@ -98,7 +98,7 @@ The following are the basic requirements to **start** the workshop.
      --location $LOCATION
    ```
    
-3. Create the AKS cluster without a network plugin.
+3. Create the AKS cluster with Azure CNI network plugin.
    
    ```bash
    az aks create \
